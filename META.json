@@ -1,0 +1,57 @@
+{
+   "abstract" : "Files and code for building Perl 5.14.0",
+   "author" : [
+      "Curtis Jewell <CSJewell@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perl-Dist-Strawberry-BuildPerl-5140",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.33"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.02",
+            "Moose::Role" : "0.90",
+            "Perl::Dist::Strawberry" : "2.50",
+            "perl" : "5.010"
+         }
+      }
+   },
+   "provides" : {
+      "Perl::Dist::Strawberry::BuildPerl::5140" : {
+         "file" : "lib/Perl/Dist/Strawberry/BuildPerl/5140.pm",
+         "version" : "2.50"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Dist-Strawberry-BuildPerl-5123"
+      },
+      "homepage" : "http://csjewell.comyr.com/perl/",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://hg.curtisjewell.name/Perl-Dist-Strawberry-BuildPerl-5123/"
+      },
+      "x_IRC" : "irc://irc.perl.org/#win32"
+   },
+   "version" : "2.50"
+}
